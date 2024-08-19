@@ -1,0 +1,14 @@
+correct_user = "S88S"
+correct_password = "bobohead"
+
+num = True
+
+while num == True:
+    username = input("username:")
+    password = input("password:")
+
+    if correct_password == password and correct_user == username :
+        num = False
+        print("welcome in") 
+    else:
+        print("out of here")
