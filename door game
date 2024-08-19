@@ -1,0 +1,27 @@
+import random
+p_dist.
+
+dash = "---------------------"
+while p_dist > 0:
+    move = input("pick a door --")
+    print(dash)
+    if move == "left":
+        p_dist.randint(-1, -10)
+        print("you moved somewhat")
+        print(p_dist) 
+        print(dash)
+    elif move == "right":
+        p_dist -= 2
+        print("you barely moved")
+        print(p_dist)
+        print(dash)
+    elif move == "middle":
+        p_dist -=27
+        print("you moved a ton")
+        print(p_dist)
+        print(dash)
+    else:
+        print("there is no door there")
+        print(dash)
+print(dash)
+print("you made it!")
